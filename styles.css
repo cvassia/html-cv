@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(43, 42, 42, 0.322);
+}
+
+@font-face {
+  font-family: "tarponmotelregular";
+  src: url("tarponmotel-webfont.woff2") format("woff2"),
+    url("tarponmotel-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  background-color: rgb(43, 42, 42);
+  width: 80%;
+  height: 1330px;
+  margin: 65.454px auto 50px auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  color: azure;
+  margin: 0px 0 0 50px;
+  text-align: justify;
+}
+
+.fir {
+  padding: 0;
+  margin-top: 0;
+}
+
+h1 {
+  padding-top: 41px;
+  font-family: "tarponmotelregular";
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.pend {
+  padding-bottom: 50px;
+}
+
+img {
+  width: 300px;
+  margin-left: 35px;
+}
+
+hr {
+  padding-top: 18px;
+  width: 985px;
+  border: 1.5px #8c8b8b;
+  border-style: none none dashed;
+}
+
+.exception0 {
+  padding-top: 15px;
+
+  border-style: none;
+}
+.exception1 {
+  padding-top: 47px;
+
+  border-style: none;
+}
+
+.exception {
+  padding-top: 10px;
+
+  border-style: none;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  padding: 30px 66px 0px 30px;
+  border-right: 1.5px dashed #8c8b8b;
+}
+
+.right {
+  float: left;
+  width: 50%;
+  padding: 68px 80px 0 20px;
+}
+
+.dots {
+  /* float: left; */
+  /* background: rgb(43, 42, 42); */
+  height: 1330px;
+  border-left: 1px dashed #8c8b8b;
+  /* left: 150; */
+  /* position: fixed; */
+  width: 1%;
+
+  margin: 113px auto 50px auto;
+}
+
+.align {
+  text-align: end;
+}
+
+.contact {
+  padding-top: 73px;
+  text-align: end;
+}
+
+.acco {
+  padding-top: 96px;
+  text-align: end;
+}
+
+li {
+  list-style-type: none;
+}
+
+.a1 {
+  text-decoration: none;
+  color: rgb(230, 255, 255);
+  position: relative;
+  right: 101px;
+  top: 12px;
+}
+
+.a2 {
+  text-decoration: none;
+  color: rgb(230, 255, 255);
+  position: relative;
+  left: 345px;
+  top: -10px;
+}
+
+.icon {
+  margin-left: 260px;
+  color: rgb(230, 255, 255);
+  position: relative;
+  bottom: 12px;
+}
+
+.icon1 {
+  color: rgb(230, 255, 255);
+  position: relative;
+  left: 50px;
+  bottom: 12px;
+}
